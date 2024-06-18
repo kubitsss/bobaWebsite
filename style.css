@@ -6,9 +6,13 @@ h1, h3, a {
 	color: #dddddd
 	
 }
-#title {
-	padding-bottom: 50px;
+h1 {
+	font-size: 70px;
 }
+h3 {
+	font-size: 30px;
+}
+
 body {
 	background-color: #111111;
 }
@@ -28,4 +32,8 @@ a:hover {
 
 a::after {
 	color:blueviolet
+}
+
+div {
+	font-size: 20px;
 }
