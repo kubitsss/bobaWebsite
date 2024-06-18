@@ -1,11 +1,9 @@
 * {
 	text-align: center;
-}
-h1, h3, a {
 	font-family: monospace;
-	color: #dddddd
-	
+	color: #dddddd;
 }
+
 h1 {
 	font-size: 70px;
 }
@@ -23,17 +21,22 @@ span {
 
 a {
 	text-decoration: none;
-	padding: 10px;
+
 }
 
 a:hover {
-	color:violet;
+	color:violet !important;
 }
 
-a::after {
-	color:blueviolet
-}
-
-div {
+#nav {
 	font-size: 20px;
 }
+#nav a{
+	padding: 10px;
+}
+
+#smile {
+	width: 100px;
+}
+
+
