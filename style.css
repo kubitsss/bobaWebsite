@@ -10,6 +10,9 @@ h1 {
 h3 {
 	font-size: 30px;
 }
+h4 {
+	font-size: 22px;
+}
 p {
 	font-size: 18px;
 }
@@ -24,8 +27,12 @@ span {
 	color: violet
 }
 
-a {
+a{
 	text-decoration: none;
+}
+
+.play {
+	text-decoration: violet wavy underline;
 
 }
 
@@ -53,7 +60,7 @@ a:hover {
 }
 
 .pics img {
-	max-width: 500px;
+	max-height: 300px;
 	border: #222222 solid 10px;
 	border-radius: 3px;
 }
